@@ -1,0 +1,54 @@
+body{
+    padding: 0;
+    margin: 0;
+    background: darkslategrey;
+}
+
+.nav-bar {
+
+    margin-left: 35%;
+    margin-top: 2.5%;
+    width: auto;
+}
+
+.nav-bar a {
+    color: white;
+    text-decoration: none;
+    font-size: 32px;
+    padding: 1%;
+    text-align: center;
+    padding: 14px 16px;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.topnav {
+    overflow: hidden;
+}
+
+.topnav a:hover {
+    color: black;
+}
+
+
+.main-img img {
+    width: 100%;
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+@media screen  and (max-width: 1600px){
+    .nav-bar {
+        margin-left: 30%;
+    }
+
+
+}
+
+@media screen  and (max-width: 1200px){
+    .nav-bar {
+        margin-left:25%;
+    }
+}
