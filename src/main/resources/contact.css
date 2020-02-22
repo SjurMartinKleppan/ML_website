@@ -1,71 +1,59 @@
-* {
-    box-sizing: border-box;
-    align-content: center;
+.body {
+    padding: 0;
 }
 
-/* Style input*/
-input[type=text], select, textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    margin-top:6px;
-    margin-bottom: 16px;
-    resize: vertical;
-    min-width: 300px;
+form {
+    margin-top: 10%;
+}
+.form-group {
+    width: 400px;
+    padding: 14px 18px;
+    margin-left: 2%;
 }
 
-
-input[type = submit]{
-    background-color: #4CAF50;
+.form-group label {
     color: white;
-    padding: 12px 20px;
-    border: none;
-    cursor: pointer;
-    min-width: 40px;
+    font-size: 18px;
+    font-family: "Helvetica Neue";
+    font-weight: bolder;
 }
 
-input[type=submit]:hover{
-    background-color: #45A049;
+.form-group #melding {
+    width: 400px;
+    height: 200px;
 }
 
-/* Style the container/contact section*/
+.form-group .btn {
+    color: white;
+    background-color: black;
+}
+
+.form-group .btn:hover {
+    background-color: darkgray;
+}
+
 .container {
     border-radius: 5px;
-    background-color: darkslategrey;
-    padding-top: 100px;
+    padding-top: 50px;
     color: white;
     text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
 }
 
-/* Create two colums that float next to eachother */
 .column {
     float: left;
-    width: 40%;
-    margin-top: 6px;
-    padding-left: 10px;
+    width: 100%;
+    margin-top: 40px;
     min-width: 400px;
     max-width: 500px;
 }
 
 .row {
-    padding-left: 16%;
-}
-
-/* Clear floats after the colums*/
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-label {
-    color: white;
-    font-family: Helvetica;
+    padding-left: 10%;
 }
 
 
 
-/* Responsive layout */
+ /*Responsive layout */
 
 @media screen  and (max-width: 600px){
     .column, input[type=submit]{
@@ -73,3 +61,4 @@ label {
         margin-top: 0;
     }
 }
+

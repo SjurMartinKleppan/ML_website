@@ -1,49 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Millennium Event | Kontakt</title>
+
+    <meta charset="utf-8">
+    <!-- Viewport Meta Tag -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="indexImage.css">
     <link rel="stylesheet" href="contact.css">
-    <link rel="stylesheet" href="style.css">
+    <title>Millennium Event | Kontakt</title>
+
 </head>
 <body>
 
 
-    <div class="nav-bar">
-        <div class="topnav">
-            <a href="lys.html">Lys</a>
-            <a href="lyd.html">Lyd</a>
-            <a href="event.html">Events</a>
-            <a href="omOss.html">Om oss</a>
-            <a href="kontakt.html">Kontakt</a>
+    <div class="hero-img">
+        <div class="nav-bar">
+            <div class="topnav">
+                <a href="lys.html">Lys</a>
+                <a href="lyd.html">Lyd</a>
+                <!-- <a href="event.html">Events</a> -->
+                <a href="omOss.html">Om oss</a>
+                <a href="kontakt.html">Kontakt</a>
+            </div>
         </div>
-    </div>
 
 
-<div class="container">
-    <div style="text-align: center">
-        <h2>Kontakt oss!</h2>
-        <p>Send oss en mail med hva du trenger, så kontakter vi deg!</p>
-    </div>
+    <div class="container">
+        <div style="text-align: center">
+            <h2>Kontakt oss!</h2>
+            <p>Send oss en mail med hva du trenger, så kontakter vi deg!</p>
+        </div>
     <div class="row">
         <div class="column">
-            <img src="./MMLogos/MM_logo_white_transparent.png" alt="Millennium Event" style="width:100%">
+            <img src="./MMLogos/MM_logo_white_transparent.png" class="img-fluid" alt="Millennium Event">
         </div>
-        <div class="column">
-            <form action="/action_page.php">
-                <label for="fname">Fornavn</label>
-                <input type="text" id="fname" name="firstname" placeholder="Ditt fornavn...">
-                <label for="lname">Etternavn</label>
-                <input type="text" id="lname" name="lastname" placeholder="Ditt etternavn...">
-                <label for="email">Email</label>
-                <input type="text" id="email" name="email" placeholder="Din Email...">
-                <label for="subjekt">Subjekt</label>
-                <textarea id="subjekt" name="subjekt" placeholder="Skriv noe..." style="height: 170px"></textarea>
-                <input type="submit" value="Submit">
+
+            <form action="/html/tags/html_form_tag_action.cfm">
+                <fieldset class="form-group">
+                    <label for="navn">Navn</label>
+                    <input type="text" class="form-control" id="navn" name="navn">
+                </fieldset>
+                <fieldset class="form-group">
+                    <label for="email">E-Mail</label>
+                    <input type="text" class="form-control" id="email" name="email">
+                </fieldset>
+                <fieldset class="form-group">
+                    <label for="melding">Melding</label>
+                    <textarea class="form-control" id="melding" rows="3"></textarea>
+                </fieldset>
+                <fieldset class="form-group">
+                    <button type="submit" class="btn">Submit</button>
+                </fieldset>
             </form>
         </div>
     </div>
 </div>
-
+<!-- JavaScript: placed at the end of the document so the pages load faster -->
+<!-- jQuery library -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<!-- Popper -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<!-- Latest compiled and minified Bootstrap JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>

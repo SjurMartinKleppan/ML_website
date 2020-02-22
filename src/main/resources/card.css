@@ -1,80 +1,24 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
 .row {
-    padding-top: 100px;
-}
-.column {
     float: left;
-    width: 12%;
-    margin-bottom: 4px;
-    margin-left: 8%;
-    padding: 15px 10px;
-}
-
-@media screen and (max-width: 1600px){
-    .column {
-        width: 100%;
-        display: block;
-    }
-}
-
-@media screen and (max-width: 1200px) {
-    .column {
-        width: 100%;
-        display: block;
-        margin-left: 16%;
-    }
-}
-.card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    max-width: 300px;
-    min-width: 300px;
-    height: 640px;
-    text-align: center;
-    font-family: Arial;
-    background-color: white;
-    color: black;
-}
-
-.price {
-    color: black;
-    font-size: 22px;
-}
-
-.card button {
-    border: none;
-    outline: 0;
-    padding: 12px;
-    color: white;
-    background-color: cadetblue;
-    text-align: center;
-    cursor: pointer;
     width: 100%;
-    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 18%;
 }
 
-.card p {
-    font-size: 14px;
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-bottom: 5px;
+.card {
+    margin-top: 20px;
 }
 
-button a {
-    text-decoration: none;
-    color: white;
+.card-body a {
+    background-color: black;
+    border: darkgray;
 }
 
-.card button:hover {
-    opacity: 0.7;
-}
-
-@media screen and (max-width: 1600px) {
-    .column {
-        width: 18%;
-    }
-}
-
-@media screen and (max-width: 1200px) {
-    .column {
-        width: 24%;
-    }
+.card-body a:hover {
+    background-color: darkgray;
 }
